@@ -8,14 +8,14 @@ public class Calculadora {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         List<String> historial = new ArrayList<String>();
-        String titulo = "=== Calculadora de consola ===";
+        String titulo = "=== Calculadora ===";
  
         while (true) {
             System.out.println("\n" + titulo);
-            System.out.println("1. Sumar");
-            System.out.println("2. Restar");
-            System.out.println("3. Multiplicar");
-            System.out.println("4. Dividir");
+            System.out.println("1. Sumar +");
+            System.out.println("2. Restar -");
+            System.out.println("3. Multiplicar ×");
+            System.out.println("4. Dividir ÷");
             System.out.println("5. Ver historial");
             System.out.println("0. Salir");
  
